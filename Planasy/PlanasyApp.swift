@@ -13,5 +13,6 @@ struct PlanasyApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Planasy.self)
     }
 }
